@@ -1,0 +1,113 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>푸터디자인</title>
+    <link rel="stylesheet" href="./CSS/Footer.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+
+  <footer id="ft">
+    <div class="ft-top">
+      <div class="container">
+        <nav class="fnb">
+          <a href="https://www.cubevalley.net/goods?id=14153&UseCache=false&pageID=1309" target="_blank">회사 소개</a>
+          <a href="https://www.cubevalley.net/goods?id=14412&UseCache=false&pageID=1309" target="_blank">언론보도</a>
+          <a href="https://www.cubevalley.net/goods?id=15349&UseCache=false&pageID=1309" target="_blank">이용약관</a>
+          <a href="https://www.cubevalley.net/goods?id=15351&UseCache=false&pageID=1309" target="_blank">개인정보처리방침</a>
+          <a href="https://www.cubevalley.net/goods?id=15350&UseCache=false&pageID=1309" target="_blank">여행약관</a>
+        </nav>
+        <div class="right-etc">
+          <ul class="sns-list d-flex">
+            <li><a href="https://pf.kakao.com/_KarEG" class="icon icon-sns-kakaoch" target="_blank" title="카카오채널">카카오채널</a></li>
+            <li><a href="https://www.instagram.com/cubevalley_official/" class="icon icon-sns-insta" target="_blank" title="인스타그램">인스타그램</a></li>
+            <li><a href="https://www.facebook.com/CubeValley" class="icon icon-sns-face" target="_blank" title="페이스북">페이스북</a></li>
+            <li><a href="https://blog.naver.com/PostList.naver?blogId=cubevalley&amp;from=postList&amp;categoryNo=26" class="icon icon-sns-blog" target="_blank" title="블로그">블로그</a></li>
+            <div class="dropdown">
+              <button type="button" class="dropdown-toggle">Family site</button>
+              <div class="dropdown-content">
+                  <a href="https://en.imkorea.world/" target="_blank">ImKorea</a>
+              </div>
+            </div>
+          </ul>
+          <!-- Family site 드롭다운 메뉴 -->
+        </div>
+        
+      </div>
+    </div>
+    <div class="container">
+      <img src="image/logo_cv_en.png" class="ft-logo" alt="">
+      <div class="ft-btm">
+        <div class="ft-info">
+          <span>(주) 큐브밸리</span>
+          <span>대표자 : 최지웅</span>
+          <span>사업자등록번호 : 603-81-91430</span>
+          <span>통신판매업신고번호 : 제2020-서울종로-0430호</span>
+          <span>관광사업자 등록번호 : 제2020-000007호</span>
+          <div class="w-100"></div>
+          <span>서울특별시 종로구 사직로 8길 24, 1520호 (03174)</span>
+          <span>개인정보관리책임자 : 최지웅</span>
+          <span>이메일 : highend@cubevalley.net</span>
+          <span><strong>고객센터 : 02-6959-5448</strong> &nbsp;평일 : 10:00 ~ 17:00 (점심시간 : 11:30 ~ 13:00  주말/공휴일 휴무)</span>
+        </div>
+        <p class="copy">Copyright ⓒ Cubevalley, All rights reserved.</p>
+      </div>
+    </div>
+    <!-- 슬라이드 -->
+    <div class="slider">
+      <div class="slide-track">
+        <div class="slide">
+          <img src="./image/Slide-img-KR-KIPO.jpg" alt="" class="slide-img">
+        </div>
+        <div class="slide">
+          <img src="./image/Slide-img-KR-STA.jpg" alt="" class="slide-img">
+        </div>
+        <div class="slide">
+          <img src="./image/Slide-img-KR-KTO1.jpg" alt="" class="slide-img">
+        </div>
+        <div class="slide">
+          <img src="./image/Slide-img-KR-KTO2.jpg" alt="" class="slide-img">
+        </div>
+        <div class="slide">
+          <img src="./image/Slide-img-KR-KTO3.jpg" alt="" class="slide-img">
+        </div>
+        <div class="slide">
+          <img src="./image/Slide-img-KR-KTO4.jpg" alt="" class="slide-img">
+        </div>
+        <div class="slide">
+          <img src="./image/Slide-img-KR-STO1.jpg" alt="" class="slide-img">
+        </div>
+        <div class="slide">
+          <img src="./image/Slide-img-KR-STO2.jpg" alt="" class="slide-img">
+        </div>
+        <div class="slide">
+          <img src="./image/Slide-img-KR-STO3.jpg" alt="" class="slide-img">
+        </div> 
+      </div>
+    </div>
+</div>
+<!-- Back to Top -->
+<a id="button"></a>
+<script>
+var btn = $('#button');
+
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+  
+  btn.on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({scrollTop:0}, '300');
+  });
+  
+  </script>
+</footer>
+
+
+
+</body>
+</html>
